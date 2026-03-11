@@ -26,6 +26,7 @@
 
 ## 5) Commands output (paste EXACT output)
 ### 5.1 Generator
+```text
 $ python src/day2_data_formats.py --input artifacts/day1/response.json
 {
   "schema_version": "2.0",
@@ -50,7 +51,7 @@ $ python src/day2_data_formats.py --input artifacts/day1/response.json
     "title_len": 18
   }
 }
-
+```
 ### 5.2 Tests
 $ pytest -q
 .......                                                                  [100%]
