@@ -1,18 +1,14 @@
 from __future__ import annotations
-import json
-import os
-import subprocess
-import csv
-import yaml
+import json, os, subprocess, csv, yaml
 import xml.etree.ElementTree as ET
 from pathlib import Path
 import jsonschema
 
-ROOT  = Path(__file__).resolve().parents[1]
-DAY2  = ROOT / "artifacts" / "day2"
+ROOT   = Path(__file__).resolve().parents[1]
+DAY2   = ROOT / "artifacts" / "day2"
 SCHEMA = ROOT / "schemas" / "day2_summary.schema.json"
 
-def load_json(p: Path):
+def load_json(p):
     return json.loads(p.read_text(encoding="utf-8"))
 
 def test_day2_generate_and_validate():
@@ -27,25 +23,20 @@ def test_day2_generate_and_validate():
     )
     assert r.returncode == 0, f"script failed:\n{r.stderr}"
 
-    for fn in ["normalized.json", "normalized.yaml", "normalized.xml", "normalized.csv", "summary.json"]:
+    for fn in ["normalized.json","normalized.yaml","normalized.xml","normalized.csv","summary.json"]:
         assert (DAY2 / fn).exists(), f"missing {fn}"
 
-    summary = load_json(DAY2 / "summary.json")
-    schema  = load_json(SCHEMA)
-    jsonschema.validate(instance=summary, schema=schema)
+    jsonschema.validate(instance=load_json(DAY2/"summary.json"), schema=load_json(SCHEMA))
 
-    model_json = load_json(DAY2 / "normalized.json")
-    model_yaml = yaml.safe_load((DAY2 / "normalized.yaml").read_text(encoding="utf-8"))
-    assert model_json == model_yaml
+    assert load_json(DAY2/"normalized.json") == yaml.safe_load((DAY2/"normalized.yaml").read_text(encoding="utf-8"))
 
-    tree = ET.parse(DAY2 / "normalized.xml")
-    root = tree.getroot()
+    root = ET.parse(DAY2/"normalized.xml").getroot()
     assert root.tag == "devnet_day2"
     th8 = root.findtext("./student/token_hash8")
     assert th8 and len(th8) == 8
 
-    with (DAY2 / "normalized.csv").open("r", encoding="utf-8", newline="") as f:
+    with (DAY2/"normalized.csv").open("r", encoding="utf-8", newline="") as f:
         rows = list(csv.DictReader(f))
     assert len(rows) == 1
     assert "token_hash8" in rows[0]
-    assert rows[0]["completed"] in ("true", "false")
+    assert rows[0]["completed"] in ("true","false")

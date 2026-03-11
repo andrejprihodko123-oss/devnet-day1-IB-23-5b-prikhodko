@@ -1,4 +1,8 @@
-* 3ea0e28 (HEAD -> feature/day2-readme-B) Day2 readme B
+* d9b1ed1 (origin/master, master) Day 2: artifacts, git log, conflict log, pr link
+| * 4be8833 (HEAD -> feature/day2-dataformats, origin/feature/day2-dataformats) Day 2: data formats, tests, schemas
+|/  
+| * 3ea0e28 (feature/day2-readme-B) Day2 readme B
+|/  
 | * 0f29d2f (feature/day2-readme-A) Day2 readme A
 |/  
-* 9e887b7 (origin/master, master, feature/day2-dataformats) Day 1: Hello API — setup, venv, tests, artifacts
+* 9e887b7 Day 1: Hello API — setup, venv, tests, artifacts
