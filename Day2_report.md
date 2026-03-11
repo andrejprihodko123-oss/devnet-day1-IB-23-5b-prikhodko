@@ -109,11 +109,15 @@ no changes added to commit (use "git add" and/or "git commit -a")
 Problem 1: TypeError: 'type' object is not subscriptable при запуске скрипта на Python 3.8 — аннотации типов tuple[...] не поддерживаются.
 Fix: Добавил from __future__ import annotations в начало файла.
 Proof:
+```text
 $ head -1 src/day2_data_formats.py
+```
 from __future__ import annotations
 Problem 2: Скрипт не читал переменные из .env — переменные окружения не устанавливались автоматически.
 Fix: Использовал export $(cat .env | xargs) перед запуском скрипта.
 Proof:
+```text
 $ export STUDENT_TOKEN=D1-IB-23-5b-16-10AF
 $ python src/day2_data_formats.py --input artifacts/day1/response.json
+```
 # вывод успешный (см. 5.1)
