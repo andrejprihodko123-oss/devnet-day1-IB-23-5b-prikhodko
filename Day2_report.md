@@ -55,9 +55,9 @@ $ python src/day2_data_formats.py --input artifacts/day1/response.json
 ### 5.2 Tests
 ```text
 $ pytest -q
-```
 .......                                                                  [100%]
 7 passed in 0.15s
+```
 
 ### 5.3 Git Log
 ```text
