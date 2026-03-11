@@ -53,11 +53,14 @@ $ python src/day2_data_formats.py --input artifacts/day1/response.json
 }
 ```
 ### 5.2 Tests
+```text
 $ pytest -q
+```
 .......                                                                  [100%]
 7 passed in 0.15s
 
 ### 5.3 Git Log
+```text
 *   c200654 (HEAD -> master) Resolve README conflict (Day2)
 |\  
 | * 0f29d2f (feature/day2-readme-A) Day2 readme A
@@ -74,6 +77,7 @@ $ pytest -q
 | * 3ea0e28 (feature/day2-readme-B) Day2 readme B
 |/  
 * 9e887b7 Day 1: Hello API — setup, venv, tests, artifacts
+```
 
 ### 5.4 Conflict log
 On branch master
