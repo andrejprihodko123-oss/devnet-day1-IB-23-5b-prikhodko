@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Day1 Summary",
+  "type": "object",
+  "required": ["student_token", "student_name", "timestamp", "response_sha256"],
+  "properties": {
+    "student_token":    { "type": "string", "pattern": "^D1-" },
+    "student_name":     { "type": "string" },
+    "student_group":    { "type": "string" },
+    "timestamp":        { "type": "string" },
+    "endpoint":         { "type": "string", "format": "uri" },
+    "response_sha256":  { "type": "string", "minLength": 64, "maxLength": 64 },
+    "todo_id":          { "type": "integer" },
+    "todo_title":       { "type": "string" },
+    "todo_completed":   { "type": "boolean" }
+  }
+}
