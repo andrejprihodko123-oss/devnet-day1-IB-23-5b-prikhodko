@@ -1,0 +1,23 @@
+{
+  "computed": {
+    "title_len": 18
+  },
+  "generated_utc": "2026-03-11T15:36:06.174578+00:00",
+  "input": {
+    "path": "artifacts/day1/response.json",
+    "sha256": "ffefdf50d54770c2a20ba143e42daa910535c20ec5ca7a1e449dac71729f00fe"
+  },
+  "outputs": {
+    "normalized_csv_sha256": "2ecf49f1634461f28823e9f012100974b877fd165f1322e84b9b28a58000a74d",
+    "normalized_json_sha256": "a3bd32875edeb144eb7b3bf662230e8f6292a4c56fe8d88b8e1df4f3d8b07972",
+    "normalized_xml_sha256": "8d7aa23ee4682fbbfdd4961c37113972b5b3b667e6b07af639f382a35aaf1165",
+    "normalized_yaml_sha256": "54155ec5c5c11f50d904f8dd4d99ee294b44c19fc1105b3656ef7b51465de507"
+  },
+  "schema_version": "2.0",
+  "student": {
+    "group": "IB-23-5b",
+    "name": "Приходько Андрей Александрович",
+    "token": "D1-IB-23-5b-16-10AF",
+    "token_hash8": "327c260e"
+  }
+}

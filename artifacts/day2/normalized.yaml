@@ -1,0 +1,12 @@
+computed:
+  title_len: 18
+student:
+  group: IB-23-5b
+  name: Приходько Андрей Александрович
+  token: D1-IB-23-5b-16-10AF
+  token_hash8: 327c260e
+todo:
+  completed: false
+  id: 1
+  title: delectus aut autem
+  userId: 1
