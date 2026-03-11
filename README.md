@@ -1,1 +1,2 @@
 - Day 2 A: data formats branch
+- Day 2 B: git conflict demo
