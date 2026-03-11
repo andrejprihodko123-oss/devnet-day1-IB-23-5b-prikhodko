@@ -112,7 +112,9 @@ Proof:
 ```text
 $ head -1 src/day2_data_formats.py
 ```
+```text
 from __future__ import annotations
+```
 Problem 2: Скрипт не читал переменные из .env — переменные окружения не устанавливались автоматически.
 Fix: Использовал export $(cat .env | xargs) перед запуском скрипта.
 Proof:
