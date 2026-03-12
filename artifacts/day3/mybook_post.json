@@ -1,0 +1,15 @@
+{
+  "api_key_sha256": "cba3fc677861f91cf530088af40985fd6934154f98f09dfb8d1c86ec3458c1b5",
+  "request": {
+    "author": "Приходько Андрей Александрович",
+    "id": 5016,
+    "isbn": "978-16327c260e",
+    "title": "My DevNet Book 327c260e"
+  },
+  "response": {
+    "author": "Приходько Андрей Александрович",
+    "id": 5016,
+    "title": "My DevNet Book 327c260e"
+  },
+  "status_code": 200
+}

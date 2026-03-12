@@ -1,0 +1,34 @@
+{
+  "artifacts_sha256": {
+    "add100_report": "bbdddf3417414dd8a4211ac8d1239ccd7288d1c97f82932ee470116a47341182",
+    "books_before": "eee48f0e2f5ad8266366e6453719a60c4826863df5c1433dabefac8cb7773258",
+    "books_by_me": "4285f89c21b4796a84c0625bbd98c46178c3da1dfabc4851838c8fa070e2d448",
+    "books_sorted_isbn": "349d7f271f8d28f760f7f85d7f8a363e2fdfdf3738e889cdd83281e487c535d2",
+    "curl_get_books": "de64bae22fde03848fbeb14e2a6c661cf7e9eed12f29b574d596224bf5bf6bf9",
+    "curl_get_books_isbn": "ee1093008a5d89a75d9aaf8a2c8a7987c8841bce0c4028d02d32e78f083fb227",
+    "curl_get_books_sorted": "6e87e9da9e47b139ee6633b979ddefac161bd7ee3006a66118067b2b866bcef5",
+    "mybook_post": "a2d538224930550c5a61f3e52ace3b388d14b83ec494b7b36182ac6713f18623",
+    "postman_collection": "5c580a1e77d79823ffdb631f6077cd487375147e8e286eb709647abb24e5b29f",
+    "postman_environment": "f5132bfdef5a8debba952fd84690614536afc482fce769f7b4738af263c1a741"
+  },
+  "generated_utc": "2026-03-12T16:23:24.996338+00:00",
+  "lab": {
+    "apihost": "http://library.demo.local",
+    "must_use": {
+      "api_key_header": "X-API-KEY",
+      "books_endpoint": "http://library.demo.local/api/v1/books",
+      "login_endpoint": "http://library.demo.local/api/v1/loginViaBasic"
+    }
+  },
+  "schema_version": "3.1",
+  "student": {
+    "group": "IB-23-5b",
+    "name": "Приходько Андрей Александрович",
+    "token": "D1-IB-23-5b-16-10AF",
+    "token_hash8": "327c260e"
+  },
+  "validation": {
+    "must_have_added_100": true,
+    "must_have_mybook_title_contains_token_hash8": true
+  }
+}

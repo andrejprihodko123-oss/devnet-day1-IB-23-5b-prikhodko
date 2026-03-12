@@ -1,0 +1,42 @@
+{
+  "count": 6,
+  "items": [
+    {
+      "author": "Приходько Андрей Александрович",
+      "id": 999,
+      "isbn": "978-0000000001",
+      "title": "Test Book"
+    },
+    {
+      "author": "Приходько Андрей Александрович",
+      "id": 5016,
+      "isbn": "978-16327c260e",
+      "title": "My DevNet Book 327c260e"
+    },
+    {
+      "author": "Приходько Андрей Александрович",
+      "id": 9200,
+      "isbn": "978-0-398-32750-7",
+      "title": "Multi-layered systematic application [327c260e]"
+    },
+    {
+      "author": "Приходько Андрей Александрович",
+      "id": 9201,
+      "isbn": "978-0-08-674523-1",
+      "title": "Secured 5thgeneration challenge [327c260e]"
+    },
+    {
+      "author": "Приходько Андрей Александрович",
+      "id": 9202,
+      "isbn": "978-0-375-00038-6",
+      "title": "Advanced contextually-based policy [327c260e]"
+    },
+    {
+      "author": "Приходько Андрей Александрович",
+      "id": 9203,
+      "isbn": "978-0-292-23628-8",
+      "title": "Proactive local standardization [327c260e]"
+    }
+  ],
+  "status_code": 200
+}

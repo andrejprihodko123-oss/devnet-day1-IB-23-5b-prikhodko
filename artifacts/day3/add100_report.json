@@ -1,0 +1,45 @@
+{
+  "added_fail": 0,
+  "added_ok": 100,
+  "api_key_sha256": "cba3fc677861f91cf530088af40985fd6934154f98f09dfb8d1c86ec3458c1b5",
+  "author_used": "Приходько Андрей Александрович",
+  "count_requested": 100,
+  "generated_utc": "2026-03-12T16:16:03.960115+00:00",
+  "id_range": [
+    9200,
+    9299
+  ],
+  "sample_books": [
+    {
+      "author": "Приходько Андрей Александрович",
+      "id": 9200,
+      "isbn": "978-0-398-32750-7",
+      "title": "Multi-layered systematic application [327c260e]"
+    },
+    {
+      "author": "Приходько Андрей Александрович",
+      "id": 9201,
+      "isbn": "978-0-08-674523-1",
+      "title": "Secured 5thgeneration challenge [327c260e]"
+    },
+    {
+      "author": "Приходько Андрей Александрович",
+      "id": 9202,
+      "isbn": "978-0-375-00038-6",
+      "title": "Advanced contextually-based policy [327c260e]"
+    },
+    {
+      "author": "Приходько Андрей Александрович",
+      "id": 9203,
+      "isbn": "978-0-292-23628-8",
+      "title": "Proactive local standardization [327c260e]"
+    },
+    {
+      "author": "Приходько Андрей Александрович",
+      "id": 9204,
+      "isbn": "978-0-304-81942-3",
+      "title": "Synergistic fault-tolerant concept [327c260e]"
+    }
+  ],
+  "tag": "327c260e"
+}

@@ -1,0 +1,19 @@
+{
+	"info": {
+		"_postman_id": "4c816636-5fc9-4448-82a6-4b1fb6a17d74",
+		"name": "Day3-Library-IB23-5b-16",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "52625087",
+		"_collection_link": "https://andrejprihodko-123-8953817.postman.co/workspace/%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9-%D0%9F%D1%80%D0%B8%D1%85%D0%BE%D0%B4%D1%8C%D0%BA%D0%BE's-Workspace~5573c648-09cf-4916-829e-ce524c83193b/collection/52625087-4c816636-5fc9-4448-82a6-4b1fb6a17d74?action=share&source=collection_link&creator=52625087"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
