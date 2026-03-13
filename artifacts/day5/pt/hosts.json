@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "response": [
+    {
+      "hostName": "PC0",
+      "hostIp": "192.168.1.10",
+      "hostMac": "0001.0001.0001",
+      "connectedNetworkDeviceName": "Switch0"
+    },
+    {
+      "hostName": "PC1",
+      "hostIp": "192.168.1.11",
+      "hostMac": "0002.0002.0002",
+      "connectedNetworkDeviceName": "Switch0"
+    }
+  ]
+}

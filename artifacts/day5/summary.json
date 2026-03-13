@@ -1,0 +1,47 @@
+{
+  "generated_utc": "2026-03-13T13:42:48.041635+00:00",
+  "pt": {
+    "empty_ticket_seen": true,
+    "evidence_sha": {
+      "external_access_check": "ba6703f5f30eb50836a380e59d370f1f4658b1606fc1ad6bdc415a831190149e",
+      "hosts": "9ebb9aa92f7ad72966b5e05d10fc78bf9deb3c1b90ebebbb2fb5a29845fcd260",
+      "network_devices": "3371bc6fdd79c7f0a0df9a728f3411aabddf2d1c6edbca294fe19bf63b5126ea",
+      "postman_collection": "",
+      "postman_environment": "",
+      "pt_internal_output": "524ea210eb9626704dbce12e6c82b20348e0f0cf0bb284082dd3c81c18a9b2a6",
+      "serviceTicket": "95f212c24d2b7133b89ab87c87cd83d88a843f3c7bddac456d49a6398c7d763e"
+    },
+    "ok": true
+  },
+  "run": {
+    "platform": "linux",
+    "python": "3.8.2"
+  },
+  "schema_version": "5.0",
+  "student": {
+    "group": "IB-23-5b",
+    "name": "Приходько Андрей Александрович",
+    "token": "D1-IB-23-5b-16-10AF",
+    "token_hash8": "327c260e"
+  },
+  "validation_passed": true,
+  "webex": {
+    "evidence_sha": {
+      "me": "bd4949c864374dd0ff4bfe3b777e35a2732483d7677f43de08ddd24eb32875c3",
+      "message_post": "b9bc867eb22383939d9287c1f8d3fbf0816847d678220108add59dd221074717",
+      "messages_list": "1e6440098d9a3f33df7ba15284f2861488b6e047ea13ec6e55f77fb93c258115",
+      "room_create": "c21907dbcfda2e8c837927fb1ff4ebaf3931961b955f8acd500edb5b7e3a3389",
+      "rooms_list": "0343639fac1511a32a4c9a92c7655a6e9f9ad3a600fc6f30b5bdad6806160a97"
+    },
+    "ok": true,
+    "room_title_contains_hash8": true
+  },
+  "yang": {
+    "evidence_sha": {
+      "ietf_interfaces_yang": "4d55b9266726c770bf285b2ef7a5b3df4d8711d92a1d9d13ac6924fe2cc81e24",
+      "pyang_tree": "94581ea148078939aea0d4f0afb05417e4417b97f92774ea90b35eb70bc569df",
+      "pyang_version": "ad9fd0b80ba4e2b83161c31e379041a917955d5c462f18ebd97e142e38f2ead0"
+    },
+    "ok": true
+  }
+}

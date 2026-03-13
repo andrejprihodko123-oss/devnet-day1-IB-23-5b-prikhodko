@@ -1,0 +1,37 @@
+module ietf-interfaces {
+  yang-version 1.1;
+  namespace "urn:ietf:params:xml:ns:yang:ietf-interfaces";
+  prefix if;
+
+  organization "IETF NETMOD (Network Modeling) Working Group";
+  description "This module contains a collection of YANG definitions for managing network interfaces.";
+
+  revision 2018-02-20 {
+    description "Updated version.";
+  }
+
+  container interfaces {
+    description "Interface parameters.";
+    list interface {
+      key "name";
+      leaf name {
+        type string;
+        description "The name of the interface.";
+      }
+      leaf description {
+        type string;
+        description "A textual description of the interface.";
+      }
+      leaf type {
+        type string;
+        mandatory true;
+        description "The type of the interface.";
+      }
+      leaf enabled {
+        type boolean;
+        default "true";
+        description "This leaf contains the configured, desired state of the interface.";
+      }
+    }
+  }
+}

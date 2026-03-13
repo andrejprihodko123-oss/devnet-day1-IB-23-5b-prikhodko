@@ -1,0 +1,7 @@
+module: ietf-interfaces
+  +--rw interfaces
+     +--rw interface* [name]
+        +--rw name           string
+        +--rw description?   string
+        +--rw type           string
+        +--rw enabled?       boolean

@@ -1,0 +1,17 @@
+PT Controller REST API - Internal Python Output
+Student: Приходько Андрей Александрович
+Token Hash8: 327c260e
+
+Requesting service ticket...
+POST http://localhost:58000/api/v1/ticket
+Service ticket received: TOKEN_DAY5_327c260e_IB23_5b_16
+
+GET /api/v1/network-device
+Status: 200
+Response: {"version": "1.0", "response": [{"hostname": "Router0"}, {"hostname": "Switch0"}]}
+
+GET /api/v1/host
+Status: 200
+Response: {"version": "1.0", "response": [{"hostName": "PC0"}, {"hostName": "PC1"}]}
+
+Script completed successfully.

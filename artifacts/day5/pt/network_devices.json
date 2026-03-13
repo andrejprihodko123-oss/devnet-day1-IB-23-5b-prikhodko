@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "response": [
+    {
+      "instanceUuid": "aabb1122-0001-0001-0001-aabb11220001",
+      "hostname": "Router0",
+      "managementIpAddress": "192.168.1.1",
+      "platformId": "cisco1941",
+      "softwareVersion": "15.4"
+    },
+    {
+      "instanceUuid": "aabb1122-0002-0002-0002-aabb11220002",
+      "hostname": "Switch0",
+      "managementIpAddress": "192.168.1.2",
+      "platformId": "WS-C2960",
+      "softwareVersion": "12.2"
+    }
+  ]
+}
