@@ -1,0 +1,35 @@
+Started by user admin
+Running as SYSTEM
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins in /var/jenkins_home/workspace/SamplePipeline
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Preparation)
+[Pipeline] echo
+Preparing build environment...
+[Pipeline] echo
+Checking out source code...
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Build)
+[Pipeline] echo
+Building the application...
+[Pipeline] sh
++ echo Build completed successfully
+Build completed successfully
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Results)
+[Pipeline] echo
+Running tests...
+[Pipeline] echo
+All tests passed
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS

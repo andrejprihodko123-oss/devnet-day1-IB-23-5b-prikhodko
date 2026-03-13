@@ -1,0 +1,45 @@
+{
+  "checks": {
+    "ansible_port_8081": true,
+    "docker_token_in_page": true,
+    "docker_tokenproof": true,
+    "jenkins_pipeline_has_stages": true,
+    "security_db_has_tables": true
+  },
+  "evidence_sha256": {
+    "ansible_hello": "6b506fcd95eb0febede6e36542f9524299ecd459f7b11b6743bef44138cbb0fb",
+    "ansible_ping": "005e9245df2c530d64aee6bfec751dfc3ced4b06361f597e7fde4163bc44fd69",
+    "ansible_playbook_install": "f8b67dfd79b217e0b8627d5359790478ecafdd0939dc008565457dbd2fbf3191",
+    "buildapp_console": "92a03800f3e75870095ed4bd2ae6467344caac82395668f26b5d9b5c40811382",
+    "curl_apache_8081": "e870932d034a48187d6685a82452e2dfbd36db1ae9840a89275eaab07b73a009",
+    "db_tables": "305f735c3f6a9c86c091790667ec1b19de38763966d78cbf434ff2155df16dc1",
+    "db_user_hash_sample": "1abc623d0e84f0b125a56b4db06b6cbd18a7d1bd55cdcec93d9b04a9a78ab814",
+    "docker_build_log": "0fd3158b33ad57a3ea4302ffd5994bc55a0c3c8016eb5da76a9825fc355aa2cc",
+    "docker_ps": "124ab41ce0b0f3fb1b0b6dc9c59696031ae139cee4936e41a97356443ce21e5e",
+    "docker_sampleapp_curl": "eaa56e5c264c9b83cf74fd581ca55c654ba98f87a2a28cbc0d9f3c6da8a22d02",
+    "docker_token_proof": "abef54f29b5cf2794897fc09cdbda68e50a09b15443b67b92378aec51999d3ac",
+    "jenkins_docker_ps": "aedc2c1d654d940bd7050fea919660e0e75bad23047aa0448b6048a3bf570d04",
+    "jenkins_url": "cd90ec84ff72977ed4370e935beeda00d153b18d534dacde1268495a4bc64bb5",
+    "login_v1": "b7efbc81d0be69e37e7f556b5a50ab4d489ece28906ed393db401ad2c68a06f8",
+    "login_v2": "b7efbc81d0be69e37e7f556b5a50ab4d489ece28906ed393db401ad2c68a06f8",
+    "pipeline_console": "50e08f2d5f52b2024c1f13b93377a32dd7905b9d5e74ba18c13f2ca5193ce529",
+    "pipeline_script": "8fea0c72ce363e930a53c3ed2d0757cd92ccd77b6a8b79782539ee7a2e62ae4d",
+    "ports_conf_after": "8ee0ac8272eaa90ca6a9597cb472034768331e543d074cc72141b520ffb6f686",
+    "signup_v1": "96ac3ab6021254a53f73d4b5b856be0598836cedb838103debcdc4b1669137b6",
+    "signup_v2": "9a2e79ee850b8182777b9ab60fb223e5bd62b7d1bbd9f7520f81014f5ef01121",
+    "testapp_console": "e65a274a7ee192ccab6e2d41fae386e0a2fd73117707b58ad30c368ad182dc0d"
+  },
+  "generated_utc": "2026-03-13T13:03:35.695536+00:00",
+  "run": {
+    "platform": "linux",
+    "python": "3.8.2"
+  },
+  "schema_version": "4.1",
+  "student": {
+    "group": "IB-23-5b",
+    "name": "Приходько Андрей Александрович",
+    "token": "D1-IB-23-5b-16-10AF",
+    "token_hash8": "327c260e"
+  },
+  "validation_passed": true
+}

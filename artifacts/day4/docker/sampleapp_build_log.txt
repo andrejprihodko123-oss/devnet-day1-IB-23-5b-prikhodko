@@ -1,0 +1,18 @@
+Sending build context to Docker daemon  4.608kB
+Step 1/5 : FROM python:3.8-slim
+ ---> b5f62925bd0f
+Step 2/5 : WORKDIR /app
+ ---> Using cache
+ ---> ff3d7c9260ce
+Step 3/5 : COPY sample_app.py .
+ ---> 0ae8b3072c51
+Step 4/5 : EXPOSE 8080
+ ---> Running in e69252535182
+Removing intermediate container e69252535182
+ ---> 00c04584d58e
+Step 5/5 : CMD ["python", "sample_app.py"]
+ ---> Running in ced6c744fe38
+Removing intermediate container ced6c744fe38
+ ---> ecdd3fe07f7d
+Successfully built ecdd3fe07f7d
+Successfully tagged sampleapp:day4

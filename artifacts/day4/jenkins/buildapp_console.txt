@@ -1,0 +1,11 @@
+Started by user admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/BuildAppJob
+[BuildAppJob] $ /bin/sh -xe /tmp/jenkins.sh
++ echo Building app...
+Building app...
++ python3 --version
+Python 3.8.10
++ echo Build completed successfully
+Build completed successfully
+Finished: SUCCESS

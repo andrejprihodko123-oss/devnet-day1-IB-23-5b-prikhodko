@@ -1,0 +1,8 @@
+<html>
+<body>
+<h1>Sample Web App</h1>
+<p>Student: Prihodko Andrey</p>
+<p>Group: IB-23-5b</p>
+<p>TOKEN_HASH8=327c260e</p>
+</body>
+</html>
